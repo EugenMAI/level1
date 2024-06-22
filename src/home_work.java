@@ -20,10 +20,23 @@ public class home_work {
 
        System.out.println(result);
 
+       int height = 175;
+       int weight = 90;
+       float index = (float) (weight * weight) / height;
+       System.out.println(index);
 
-     //   String result = trimmed + world;
-       // String repeat = result.repeat(3);
-       // System.out.println(result);result
+       char[] myArray = new char[5];
+       myArray[0] = 'a';
+       myArray[1] = 'b';
+       myArray[2] = 'c';
+       myArray[3] = 'd';
+       myArray[4] = 'e';
+
+       System.out.println(myArray);
+
+        String text = String.copyValueOf(myArray);
+        String replaced = text.replaceAll("c", "y");
+        System.out.println(replaced);
 
 
 
