@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ccfc11cb-c33c-4d43-a4a6-4c7ffc29d614" name="https://github.com/EugenMAI?tab=repositories" url="http://https://github.com">
+        <fileTransfer accessType="WEBDAV" port="6180">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
